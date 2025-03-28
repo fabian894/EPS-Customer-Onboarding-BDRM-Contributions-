@@ -1,0 +1,15 @@
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Application\bin\Debug\net9.0\EPSPlus.Application.deps.json
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Application\bin\Debug\net9.0\EPSPlus.Application.dll
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Application\bin\Debug\net9.0\EPSPlus.Application.pdb
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Application\bin\Debug\net9.0\EPSPlus.Domain.dll
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Application\bin\Debug\net9.0\EPSPlus.Domain.pdb
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Application\obj\Debug\net9.0\EPSPlus.Application.csproj.AssemblyReference.cache
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Application\obj\Debug\net9.0\EPSPlus.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Application\obj\Debug\net9.0\EPSPlus.Application.AssemblyInfoInputs.cache
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Application\obj\Debug\net9.0\EPSPlus.Application.AssemblyInfo.cs
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Application\obj\Debug\net9.0\EPSPlus.Application.csproj.CoreCompileInputs.cache
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Application\obj\Debug\net9.0\EPSPlus..9B27B8DA.Up2Date
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Application\obj\Debug\net9.0\EPSPlus.Application.dll
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Application\obj\Debug\net9.0\refint\EPSPlus.Application.dll
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Application\obj\Debug\net9.0\EPSPlus.Application.pdb
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Application\obj\Debug\net9.0\ref\EPSPlus.Application.dll

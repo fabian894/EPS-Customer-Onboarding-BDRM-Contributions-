@@ -1,0 +1,11 @@
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Domain\bin\Debug\net9.0\EPSPlus.Domain.deps.json
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Domain\bin\Debug\net9.0\EPSPlus.Domain.dll
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Domain\bin\Debug\net9.0\EPSPlus.Domain.pdb
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Domain\obj\Debug\net9.0\EPSPlus.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Domain\obj\Debug\net9.0\EPSPlus.Domain.AssemblyInfoInputs.cache
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Domain\obj\Debug\net9.0\EPSPlus.Domain.AssemblyInfo.cs
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Domain\obj\Debug\net9.0\EPSPlus.Domain.csproj.CoreCompileInputs.cache
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Domain\obj\Debug\net9.0\EPSPlus.Domain.dll
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Domain\obj\Debug\net9.0\refint\EPSPlus.Domain.dll
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Domain\obj\Debug\net9.0\EPSPlus.Domain.pdb
+C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Domain\obj\Debug\net9.0\ref\EPSPlus.Domain.dll

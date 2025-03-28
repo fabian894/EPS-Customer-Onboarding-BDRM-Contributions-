@@ -1,0 +1,634 @@
+2025-03-27 09:59:44.334 +01:00 [INF] Start installing Hangfire SQL objects...
+2025-03-27 09:59:46.060 +01:00 [INF] Hangfire SQL objects installed.
+2025-03-27 09:59:46.700 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/index.html - null null
+2025-03-27 09:59:46.766 +01:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: (local)@EPSPlusDB'
+2025-03-27 09:59:46.766 +01:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-03-27 09:59:46.766 +01:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-27 09:59:46.798 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-27 09:59:46.798 +01:00 [INF] Hosting environment: Development
+2025-03-27 09:59:46.798 +01:00 [INF] Content root path: C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.API
+2025-03-27 09:59:46.865 +01:00 [INF] Server desktop-p6lqc67:4640:bd43c0ee successfully announced in 66.8813 ms
+2025-03-27 09:59:46.872 +01:00 [INF] Server desktop-p6lqc67:4640:bd43c0ee is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-27 09:59:46.959 +01:00 [INF] 3 servers were removed due to timeout
+2025-03-27 09:59:47.081 +01:00 [INF] Server desktop-p6lqc67:4640:bd43c0ee all the dispatchers started
+2025-03-27 09:59:47.203 +01:00 [INF] HTTP GET /index.html responded 200 in 328.1983 ms
+2025-03-27 09:59:47.216 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/index.html - 200 null text/html;charset=utf-8 523.2008ms
+2025-03-27 09:59:47.343 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/index.js - null null
+2025-03-27 09:59:47.343 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_vs/browserLink - null null
+2025-03-27 09:59:47.343 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-27 09:59:47.386 +01:00 [INF] HTTP GET /index.js responded 200 in 12.1399 ms
+2025-03-27 09:59:47.388 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/index.js - 200 null application/javascript;charset=utf-8 45.6445ms
+2025-03-27 09:59:47.395 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 52.2184ms
+2025-03-27 09:59:47.464 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_vs/browserLink - 200 null text/javascript; charset=UTF-8 121.4078ms
+2025-03-27 09:59:47.511 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger/v1/swagger.json - null null
+2025-03-27 09:59:47.637 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 124.9305 ms
+2025-03-27 09:59:47.638 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 127.1753ms
+2025-03-27 09:59:48.294 +01:00 [INF] Running contribution validation job...
+2025-03-27 09:59:48.294 +01:00 [INF] Retrying failed contributions...
+2025-03-27 09:59:48.295 +01:00 [INF] Fetching all contributions
+2025-03-27 09:59:48.313 +01:00 [INF] Fetching all failed contributions
+2025-03-27 09:59:49.333 +01:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Amount], [c].[ContributionDate], [c].[MemberId], [c].[Status], [c].[Type]
+FROM [Contributions] AS [c]
+2025-03-27 09:59:49.333 +01:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Amount], [c].[ContributionDate], [c].[MemberId], [c].[Status], [c].[Type]
+FROM [Contributions] AS [c]
+WHERE [c].[Status] = 3
+2025-03-27 09:59:49.350 +01:00 [INF] Fetched 0 failed contributions
+2025-03-27 09:59:49.353 +01:00 [INF] Retry job for failed contributions completed.
+2025-03-27 09:59:49.418 +01:00 [INF] Fetched 14 contributions
+2025-03-27 09:59:49.420 +01:00 [INF] Valid contribution found! ID: 35ab6726-e70f-44d3-bf40-0444b8ac99f4, Amount: 10000.00
+2025-03-27 09:59:49.421 +01:00 [INF] Valid contribution found! ID: cf2e84a8-80dc-460f-a060-0e2b7e153cfc, Amount: 9000.00
+2025-03-27 09:59:49.421 +01:00 [INF] Valid contribution found! ID: ebd50c16-5e42-4bda-9981-2358338fa5aa, Amount: 100000.00
+2025-03-27 09:59:49.421 +01:00 [INF] Valid contribution found! ID: 775e34d3-6fbc-4ac1-99ba-2f1f84ea5288, Amount: 10000.00
+2025-03-27 09:59:49.421 +01:00 [INF] Valid contribution found! ID: 74ca6d42-b133-430e-b002-379ce6e28205, Amount: 100000.00
+2025-03-27 09:59:49.421 +01:00 [INF] Valid contribution found! ID: 2cab60d0-4b2d-442e-894f-41446bf4ded8, Amount: 90000.00
+2025-03-27 09:59:49.421 +01:00 [INF] Valid contribution found! ID: 97e5b3ca-76a4-425b-b2d0-46c41db448eb, Amount: 100000.00
+2025-03-27 09:59:49.421 +01:00 [INF] Valid contribution found! ID: b2a87db0-2f41-4187-b262-4f55d1daa3d0, Amount: 890.00
+2025-03-27 09:59:49.421 +01:00 [INF] Valid contribution found! ID: 8a6933cb-788f-4e20-97ba-5b67aed40b19, Amount: 1000.00
+2025-03-27 09:59:49.422 +01:00 [INF] Valid contribution found! ID: ccf2e08f-5653-437f-a102-9006949e1239, Amount: 100000.00
+2025-03-27 09:59:49.422 +01:00 [INF] Valid contribution found! ID: 4afb2fee-efef-49ad-bbd0-c8782485e3fa, Amount: 10100.00
+2025-03-27 09:59:49.422 +01:00 [INF] Valid contribution found! ID: ca0771fd-411a-4458-8873-e653dfed898e, Amount: 1090.00
+2025-03-27 09:59:49.422 +01:00 [INF] Valid contribution found! ID: dc175b70-aa2d-44cb-83d4-e8536356ecb3, Amount: 100000.00
+2025-03-27 09:59:49.422 +01:00 [INF] Valid contribution found! ID: 53dee707-1b9f-4259-8fab-eedaf11a2f37, Amount: 900.00
+2025-03-27 09:59:49.422 +01:00 [INF] Contribution validation job completed.
+2025-03-27 10:00:02.844 +01:00 [INF] Retrying failed contributions...
+2025-03-27 10:00:02.845 +01:00 [INF] Fetching all failed contributions
+2025-03-27 10:00:02.945 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Amount], [c].[ContributionDate], [c].[MemberId], [c].[Status], [c].[Type]
+FROM [Contributions] AS [c]
+WHERE [c].[Status] = 3
+2025-03-27 10:00:02.946 +01:00 [INF] Fetched 0 failed contributions
+2025-03-27 10:00:02.946 +01:00 [INF] Retry job for failed contributions completed.
+2025-03-27 10:00:42.076 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Contribution - application/json 151
+2025-03-27 10:00:42.232 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.ContributionController.AddContribution (EPSPlus.API)'
+2025-03-27 10:00:42.310 +01:00 [INF] Route matched with {action = "AddContribution", controller = "Contribution"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] AddContribution(EPSPlus.Domain.Entities.Contribution) on controller EPSPlus.API.Controllers.ContributionController (EPSPlus.API).
+2025-03-27 10:00:42.520 +01:00 [INF] Attempting to add a new contribution: EPSPlus.Domain.Entities.Contribution
+2025-03-27 10:00:42.526 +01:00 [INF] Attempting to add contribution for MemberId: "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+2025-03-27 10:00:42.712 +01:00 [INF] Executed DbCommand (41ms) [Parameters=[@__contribution_MemberId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Members] AS [m]
+        WHERE [m].[Id] = @__contribution_MemberId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-27 10:00:43.276 +01:00 [INF] Executed DbCommand (37ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Guid), @p4='?' (DbType = Int32), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Contributions] ([Id], [Amount], [ContributionDate], [MemberId], [Status], [Type])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2025-03-27 10:00:43.324 +01:00 [INF] Successfully added contribution with Id: "8904ef5f-39fb-4933-9b5d-bcea1a21e1f8" for MemberId: "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+2025-03-27 10:00:43.324 +01:00 [INF] Contribution added successfully: "8904ef5f-39fb-4933-9b5d-bcea1a21e1f8"
+2025-03-27 10:00:43.332 +01:00 [INF] Processing contribution for Member: "3fa85f64-5717-4562-b3fc-2c963f66afa6" with Amount: 900 and Type: "Voluntary"
+2025-03-27 10:00:43.337 +01:00 [INF] Retrieving member by ID: "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+2025-03-27 10:00:43.384 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[CreatedAt], [m].[DateOfBirth], [m].[Email], [m].[FirstName], [m].[IsActive], [m].[LastName], [m].[PhoneNumber], [m].[UpdatedAt]
+FROM [Members] AS [m]
+WHERE [m].[Id] = @__id_0
+2025-03-27 10:00:44.041 +01:00 [INF] Contribution processed successfully for Member: "3fa85f64-5717-4562-b3fc-2c963f66afa6" with Amount: 900
+2025-03-27 10:00:44.045 +01:00 [INF] Updating status of contribution with Id: "8904ef5f-39fb-4933-9b5d-bcea1a21e1f8" to Status: "Success"
+2025-03-27 10:00:44.140 +01:00 [INF] Executed DbCommand (13ms) [Parameters=[@p5='?' (DbType = Guid), @p0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Guid), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Contributions] SET [Amount] = @p0, [ContributionDate] = @p1, [MemberId] = @p2, [Status] = @p3, [Type] = @p4
+OUTPUT 1
+WHERE [Id] = @p5;
+2025-03-27 10:00:44.150 +01:00 [INF] Successfully updated status of contribution with Id: "8904ef5f-39fb-4933-9b5d-bcea1a21e1f8" to Status: "Success"
+2025-03-27 10:00:44.150 +01:00 [INF] Contribution processed successfully for ID: "8904ef5f-39fb-4933-9b5d-bcea1a21e1f8"
+2025-03-27 10:00:44.186 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'EPSPlus.Domain.Entities.Contribution'.
+2025-03-27 10:00:44.305 +01:00 [INF] Executed action EPSPlus.API.Controllers.ContributionController.AddContribution (EPSPlus.API) in 1977.4046ms
+2025-03-27 10:00:44.308 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.ContributionController.AddContribution (EPSPlus.API)'
+2025-03-27 10:00:44.313 +01:00 [INF] HTTP POST /api/Contribution responded 201 in 2236.1425 ms
+2025-03-27 10:00:44.316 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Contribution - 201 null application/json; charset=utf-8 2239.9213ms
+2025-03-27 10:21:27.994 +01:00 [INF] Start installing Hangfire SQL objects...
+2025-03-27 10:21:29.622 +01:00 [INF] Hangfire SQL objects installed.
+2025-03-27 10:21:31.066 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/index.html - null null
+2025-03-27 10:21:31.273 +01:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: (local)@EPSPlusDB'
+2025-03-27 10:21:31.274 +01:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-03-27 10:21:31.274 +01:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-27 10:21:31.328 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-27 10:21:31.329 +01:00 [INF] Hosting environment: Development
+2025-03-27 10:21:31.330 +01:00 [INF] Content root path: C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.API
+2025-03-27 10:21:31.379 +01:00 [INF] Server desktop-p6lqc67:1716:f1204ef8 successfully announced in 33.7836 ms
+2025-03-27 10:21:31.392 +01:00 [INF] Server desktop-p6lqc67:1716:f1204ef8 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-27 10:21:31.693 +01:00 [INF] Server desktop-p6lqc67:1716:f1204ef8 all the dispatchers started
+2025-03-27 10:21:31.908 +01:00 [INF] HTTP GET /index.html responded 200 in 540.1910 ms
+2025-03-27 10:21:31.930 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/index.html - 200 null text/html;charset=utf-8 881.9867ms
+2025-03-27 10:21:32.082 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/index.js - null null
+2025-03-27 10:21:32.082 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-27 10:21:32.082 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_vs/browserLink - null null
+2025-03-27 10:21:32.090 +01:00 [INF] HTTP GET /index.js responded 200 in 3.1698 ms
+2025-03-27 10:21:32.092 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/index.js - 200 null application/javascript;charset=utf-8 13.8192ms
+2025-03-27 10:21:32.097 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 17.5639ms
+2025-03-27 10:21:32.261 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_vs/browserLink - 200 null text/javascript; charset=UTF-8 179.3682ms
+2025-03-27 10:21:32.325 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger/v1/swagger.json - null null
+2025-03-27 10:21:32.621 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 293.8779 ms
+2025-03-27 10:21:32.622 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 296.7691ms
+2025-03-27 10:22:11.637 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Member - application/json 259
+2025-03-27 10:22:11.696 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:22:11.737 +01:00 [INF] Route matched with {action = "CreateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] CreateMember(EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:22:14.352 +01:00 [INF] Creating new member: lola taieo
+2025-03-27 10:22:14.353 +01:00 [WRN] Invalid age for member: lola taieo
+2025-03-27 10:22:14.365 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-03-27 10:22:14.373 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API) in 2631.6454ms
+2025-03-27 10:22:14.374 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:22:14.374 +01:00 [INF] HTTP POST /api/Member responded 400 in 2736.8109 ms
+2025-03-27 10:22:14.386 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Member - 400 null text/plain; charset=utf-8 2749.5372ms
+2025-03-27 10:22:25.010 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Member - application/json 259
+2025-03-27 10:22:25.015 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:22:25.016 +01:00 [INF] Route matched with {action = "CreateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] CreateMember(EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:22:26.729 +01:00 [INF] Creating new member: lola taieo
+2025-03-27 10:22:26.730 +01:00 [WRN] Invalid age for member: lola taieo
+2025-03-27 10:22:26.731 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-03-27 10:22:26.732 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API) in 1715.6186ms
+2025-03-27 10:22:26.732 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:22:26.733 +01:00 [INF] HTTP POST /api/Member responded 400 in 1721.8012 ms
+2025-03-27 10:22:26.733 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Member - 400 null text/plain; charset=utf-8 1722.8835ms
+2025-03-27 10:22:41.502 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Member - application/json 259
+2025-03-27 10:22:41.503 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:22:41.504 +01:00 [INF] Route matched with {action = "CreateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] CreateMember(EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:22:43.357 +01:00 [INF] Creating new member: lola taieo
+2025-03-27 10:22:43.360 +01:00 [INF] Adding new member: lola taieo
+2025-03-27 10:22:44.482 +01:00 [INF] Executed DbCommand (33ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 50), @p5='?' (DbType = Boolean), @p6='?' (Size = 50), @p7='?' (Size = 4000), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Members] ([Id], [CreatedAt], [DateOfBirth], [Email], [FirstName], [IsActive], [LastName], [PhoneNumber], [UpdatedAt])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-03-27 10:22:44.510 +01:00 [INF] Successfully added member: lola taieo
+2025-03-27 10:22:44.511 +01:00 [INF] Member lola taieo created successfully
+2025-03-27 10:22:44.515 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'EPSPlus.Domain.Entities.Member'.
+2025-03-27 10:22:44.546 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API) in 3042.3411ms
+2025-03-27 10:22:44.547 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:22:44.549 +01:00 [INF] HTTP POST /api/Member responded 201 in 3045.7850 ms
+2025-03-27 10:22:44.555 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Member - 201 null application/json; charset=utf-8 3054.1018ms
+2025-03-27 10:23:35.928 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/api/Member/E668ECE6-E5F8-4ADA-B71C-E571BBD7055F - null null
+2025-03-27 10:23:35.930 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.GetMemberById (EPSPlus.API)'
+2025-03-27 10:23:35.939 +01:00 [INF] Route matched with {action = "GetMemberById", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] GetMemberById(System.Guid) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:23:35.944 +01:00 [INF] Fetching member with ID "e668ece6-e5f8-4ada-b71c-e571bbd7055f"
+2025-03-27 10:23:35.948 +01:00 [INF] Retrieving member by ID: "e668ece6-e5f8-4ada-b71c-e571bbd7055f" from database
+2025-03-27 10:23:36.672 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[CreatedAt], [m].[DateOfBirth], [m].[Email], [m].[FirstName], [m].[IsActive], [m].[LastName], [m].[PhoneNumber], [m].[UpdatedAt]
+FROM [Members] AS [m]
+WHERE [m].[Id] = @__id_0
+2025-03-27 10:23:36.699 +01:00 [INF] Member "e668ece6-e5f8-4ada-b71c-e571bbd7055f" cached for subsequent requests.
+2025-03-27 10:23:36.700 +01:00 [INF] Executing OkObjectResult, writing value of type 'EPSPlus.Domain.Entities.Member'.
+2025-03-27 10:23:36.701 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.GetMemberById (EPSPlus.API) in 761.5888ms
+2025-03-27 10:23:36.702 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.GetMemberById (EPSPlus.API)'
+2025-03-27 10:23:36.702 +01:00 [INF] HTTP GET /api/Member/E668ECE6-E5F8-4ADA-B71C-E571BBD7055F responded 200 in 772.8985 ms
+2025-03-27 10:23:36.703 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/api/Member/E668ECE6-E5F8-4ADA-B71C-E571BBD7055F - 200 null application/json; charset=utf-8 774.6287ms
+2025-03-27 10:24:05.459 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:44335/api/Member/E668ECE6-E5F8-4ADA-B71C-E571BBD7055F - application/json 258
+2025-03-27 10:24:05.461 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.UpdateMember (EPSPlus.API)'
+2025-03-27 10:24:05.468 +01:00 [INF] Route matched with {action = "UpdateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateMember(System.Guid, EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:24:05.474 +01:00 [WRN] Mismatch between request ID and member ID
+2025-03-27 10:24:05.477 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-03-27 10:24:05.525 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.UpdateMember (EPSPlus.API) in 56.296ms
+2025-03-27 10:24:05.525 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.UpdateMember (EPSPlus.API)'
+2025-03-27 10:24:05.525 +01:00 [INF] HTTP PUT /api/Member/E668ECE6-E5F8-4ADA-B71C-E571BBD7055F responded 400 in 64.5214 ms
+2025-03-27 10:24:05.526 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:44335/api/Member/E668ECE6-E5F8-4ADA-B71C-E571BBD7055F - 400 null application/problem+json; charset=utf-8 66.3056ms
+2025-03-27 10:24:23.038 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:44335/api/Member/E668ECE6-E5F8-4ADA-B71C-E571BBD7055F - application/json 258
+2025-03-27 10:24:23.038 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.UpdateMember (EPSPlus.API)'
+2025-03-27 10:24:23.038 +01:00 [INF] Route matched with {action = "UpdateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateMember(System.Guid, EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:24:23.040 +01:00 [WRN] Mismatch between request ID and member ID
+2025-03-27 10:24:23.040 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-03-27 10:24:23.041 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.UpdateMember (EPSPlus.API) in 2.2029ms
+2025-03-27 10:24:23.041 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.UpdateMember (EPSPlus.API)'
+2025-03-27 10:24:23.041 +01:00 [INF] HTTP PUT /api/Member/E668ECE6-E5F8-4ADA-B71C-E571BBD7055F responded 400 in 3.1855 ms
+2025-03-27 10:24:23.042 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:44335/api/Member/E668ECE6-E5F8-4ADA-B71C-E571BBD7055F - 400 null application/problem+json; charset=utf-8 4.5672ms
+2025-03-27 10:25:09.953 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:44335/api/Member/E668ECE6-E5F8-4ADA-B71C-E571BBD7055F - application/json 258
+2025-03-27 10:25:09.954 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.UpdateMember (EPSPlus.API)'
+2025-03-27 10:25:09.954 +01:00 [INF] Route matched with {action = "UpdateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateMember(System.Guid, EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:25:20.071 +01:00 [WRN] Mismatch between request ID and member ID
+2025-03-27 10:26:09.915 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-03-27 10:26:09.916 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.UpdateMember (EPSPlus.API) in 59961.9732ms
+2025-03-27 10:26:09.917 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.UpdateMember (EPSPlus.API)'
+2025-03-27 10:26:09.917 +01:00 [INF] HTTP PUT /api/Member/E668ECE6-E5F8-4ADA-B71C-E571BBD7055F responded 400 in 59963.1122 ms
+2025-03-27 10:26:09.917 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:44335/api/Member/E668ECE6-E5F8-4ADA-B71C-E571BBD7055F - 400 null application/problem+json; charset=utf-8 59964.1573ms
+2025-03-27 10:26:31.479 +01:00 [INF] 1 servers were removed due to timeout
+2025-03-27 10:26:57.275 +01:00 [INF] Start installing Hangfire SQL objects...
+2025-03-27 10:26:58.244 +01:00 [INF] Hangfire SQL objects installed.
+2025-03-27 10:26:59.009 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/index.html - null null
+2025-03-27 10:26:59.139 +01:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: (local)@EPSPlusDB'
+2025-03-27 10:26:59.140 +01:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-03-27 10:26:59.140 +01:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-27 10:26:59.190 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-27 10:26:59.190 +01:00 [INF] Hosting environment: Development
+2025-03-27 10:26:59.190 +01:00 [INF] Content root path: C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.API
+2025-03-27 10:26:59.229 +01:00 [INF] Server desktop-p6lqc67:34272:d917a85f successfully announced in 25.5811 ms
+2025-03-27 10:26:59.240 +01:00 [INF] Server desktop-p6lqc67:34272:d917a85f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-27 10:26:59.461 +01:00 [INF] Server desktop-p6lqc67:34272:d917a85f all the dispatchers started
+2025-03-27 10:26:59.726 +01:00 [INF] HTTP GET /index.html responded 200 in 496.3957 ms
+2025-03-27 10:26:59.740 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/index.html - 200 null text/html;charset=utf-8 746.9693ms
+2025-03-27 10:26:59.839 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/index.js - null null
+2025-03-27 10:26:59.839 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-27 10:26:59.839 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_vs/browserLink - null null
+2025-03-27 10:26:59.853 +01:00 [INF] HTTP GET /index.js responded 200 in 12.6968 ms
+2025-03-27 10:26:59.855 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/index.js - 200 null application/javascript;charset=utf-8 15.9124ms
+2025-03-27 10:26:59.873 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 34.3724ms
+2025-03-27 10:26:59.925 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_vs/browserLink - 200 null text/javascript; charset=UTF-8 86.2658ms
+2025-03-27 10:26:59.976 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger/v1/swagger.json - null null
+2025-03-27 10:27:00.215 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 236.4070 ms
+2025-03-27 10:27:00.215 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 239.3244ms
+2025-03-27 10:27:32.964 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:44335/api/Member/E668ECE6-E5F8-4ADA-B71C-E571BBD7055F - application/json 308
+2025-03-27 10:27:33.029 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.UpdateMember (EPSPlus.API)'
+2025-03-27 10:27:33.066 +01:00 [INF] Route matched with {action = "UpdateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateMember(System.Guid, EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:27:43.986 +01:00 [WRN] Invalid age for member: test
+2025-03-27 10:27:43.997 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-03-27 10:27:44.007 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.UpdateMember (EPSPlus.API) in 10935.636ms
+2025-03-27 10:27:44.007 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.UpdateMember (EPSPlus.API)'
+2025-03-27 10:27:44.008 +01:00 [INF] HTTP PUT /api/Member/E668ECE6-E5F8-4ADA-B71C-E571BBD7055F responded 400 in 11042.5330 ms
+2025-03-27 10:27:44.010 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:44335/api/Member/E668ECE6-E5F8-4ADA-B71C-E571BBD7055F - 400 null text/plain; charset=utf-8 11046.9068ms
+2025-03-27 10:27:55.849 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:44335/api/Member/E668ECE6-E5F8-4ADA-B71C-E571BBD7055F - application/json 308
+2025-03-27 10:27:55.852 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.UpdateMember (EPSPlus.API)'
+2025-03-27 10:27:55.853 +01:00 [INF] Route matched with {action = "UpdateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateMember(System.Guid, EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:28:01.318 +01:00 [INF] Updating member test test with ID: "e668ece6-e5f8-4ada-b71c-e571bbd7055f"
+2025-03-27 10:28:02.220 +01:00 [INF] Executed DbCommand (22ms) [Parameters=[@p8='?' (DbType = Guid), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 50), @p4='?' (DbType = Boolean), @p5='?' (Size = 50), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Members] SET [CreatedAt] = @p0, [DateOfBirth] = @p1, [Email] = @p2, [FirstName] = @p3, [IsActive] = @p4, [LastName] = @p5, [PhoneNumber] = @p6, [UpdatedAt] = @p7
+OUTPUT 1
+WHERE [Id] = @p8;
+2025-03-27 10:28:02.243 +01:00 [INF] Member test test with ID "e668ece6-e5f8-4ada-b71c-e571bbd7055f" updated successfully
+2025-03-27 10:28:02.244 +01:00 [INF] Updated member with ID "e668ece6-e5f8-4ada-b71c-e571bbd7055f"
+2025-03-27 10:28:02.250 +01:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-03-27 10:28:02.251 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.UpdateMember (EPSPlus.API) in 6398.05ms
+2025-03-27 10:28:02.252 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.UpdateMember (EPSPlus.API)'
+2025-03-27 10:28:02.253 +01:00 [INF] HTTP PUT /api/Member/E668ECE6-E5F8-4ADA-B71C-E571BBD7055F responded 204 in 6403.3404 ms
+2025-03-27 10:28:02.260 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:44335/api/Member/E668ECE6-E5F8-4ADA-B71C-E571BBD7055F - 204 null null 6411.6918ms
+2025-03-27 10:28:27.881 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Member - application/json 298
+2025-03-27 10:28:27.882 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:28:27.885 +01:00 [INF] Route matched with {action = "CreateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] CreateMember(EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:28:30.875 +01:00 [INF] Creating new member: string string
+2025-03-27 10:28:30.875 +01:00 [WRN] Invalid age for member: string string
+2025-03-27 10:28:30.877 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-03-27 10:28:30.878 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API) in 2992.7866ms
+2025-03-27 10:28:30.879 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:28:30.879 +01:00 [INF] HTTP POST /api/Member responded 400 in 2997.8371 ms
+2025-03-27 10:28:30.880 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Member - 400 null text/plain; charset=utf-8 2998.7539ms
+2025-03-27 10:28:39.060 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Member - application/json 298
+2025-03-27 10:28:39.060 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:28:39.060 +01:00 [INF] Route matched with {action = "CreateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] CreateMember(EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:28:40.927 +01:00 [INF] Creating new member: string string
+2025-03-27 10:28:40.929 +01:00 [INF] Adding new member: string string
+2025-03-27 10:28:41.039 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 50), @p5='?' (DbType = Boolean), @p6='?' (Size = 50), @p7='?' (Size = 4000), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Members] ([Id], [CreatedAt], [DateOfBirth], [Email], [FirstName], [IsActive], [LastName], [PhoneNumber], [UpdatedAt])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-03-27 10:28:41.041 +01:00 [INF] Successfully added member: string string
+2025-03-27 10:28:41.041 +01:00 [INF] Member string string created successfully
+2025-03-27 10:28:41.043 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'EPSPlus.Domain.Entities.Member'.
+2025-03-27 10:28:41.074 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API) in 2013.2785ms
+2025-03-27 10:28:41.074 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:28:41.074 +01:00 [INF] HTTP POST /api/Member responded 201 in 2014.3069 ms
+2025-03-27 10:28:41.075 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Member - 201 null application/json; charset=utf-8 2015.2941ms
+2025-03-27 10:31:59.407 +01:00 [INF] 1 servers were removed due to timeout
+2025-03-27 10:33:03.318 +01:00 [INF] Start installing Hangfire SQL objects...
+2025-03-27 10:33:04.278 +01:00 [INF] Hangfire SQL objects installed.
+2025-03-27 10:33:05.105 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/index.html - null null
+2025-03-27 10:33:05.234 +01:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: (local)@EPSPlusDB'
+2025-03-27 10:33:05.235 +01:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-03-27 10:33:05.235 +01:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-27 10:33:05.281 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-27 10:33:05.282 +01:00 [INF] Hosting environment: Development
+2025-03-27 10:33:05.282 +01:00 [INF] Content root path: C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.API
+2025-03-27 10:33:05.327 +01:00 [INF] Server desktop-p6lqc67:43592:cd8426ea successfully announced in 26.9283 ms
+2025-03-27 10:33:05.340 +01:00 [INF] Server desktop-p6lqc67:43592:cd8426ea is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-27 10:33:05.598 +01:00 [INF] Server desktop-p6lqc67:43592:cd8426ea all the dispatchers started
+2025-03-27 10:33:05.840 +01:00 [INF] HTTP GET /index.html responded 200 in 216.3245 ms
+2025-03-27 10:33:05.858 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/index.html - 200 null text/html;charset=utf-8 768.0715ms
+2025-03-27 10:33:05.934 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/index.js - null null
+2025-03-27 10:33:05.934 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-27 10:33:05.981 +01:00 [INF] HTTP GET /index.js responded 200 in 46.5019 ms
+2025-03-27 10:33:05.982 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_vs/browserLink - null null
+2025-03-27 10:33:06.035 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/index.js - 200 null application/javascript;charset=utf-8 61.6042ms
+2025-03-27 10:33:06.044 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 104.9913ms
+2025-03-27 10:33:06.110 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_vs/browserLink - 200 null text/javascript; charset=UTF-8 128.0497ms
+2025-03-27 10:33:06.177 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger/v1/swagger.json - null null
+2025-03-27 10:33:06.412 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 232.9512 ms
+2025-03-27 10:33:06.413 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 236.2959ms
+2025-03-27 10:38:05.727 +01:00 [INF] 1 servers were removed due to timeout
+2025-03-27 10:38:19.287 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Member - application/json 298
+2025-03-27 10:38:19.372 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:38:19.434 +01:00 [INF] Route matched with {action = "CreateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] CreateMember(EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:38:19.947 +01:00 [INF] Creating new member: string string
+2025-03-27 10:38:19.948 +01:00 [WRN] Invalid age for member: string string
+2025-03-27 10:38:19.970 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-03-27 10:38:19.984 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API) in 538.979ms
+2025-03-27 10:38:19.985 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:38:19.985 +01:00 [INF] HTTP POST /api/Member responded 400 in 696.9366 ms
+2025-03-27 10:38:19.993 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Member - 400 null text/plain; charset=utf-8 706.4045ms
+2025-03-27 10:38:28.452 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Member - application/json 298
+2025-03-27 10:38:28.458 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:38:28.459 +01:00 [INF] Route matched with {action = "CreateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] CreateMember(EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:38:28.479 +01:00 [INF] Creating new member: string string
+2025-03-27 10:38:28.484 +01:00 [INF] Adding new member: string string
+2025-03-27 10:38:30.755 +01:00 [INF] Executed DbCommand (28ms) [Parameters=[@__member_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[CreatedAt], [m].[DateOfBirth], [m].[Email], [m].[FirstName], [m].[IsActive], [m].[LastName], [m].[PhoneNumber], [m].[UpdatedAt]
+FROM [Members] AS [m]
+WHERE [m].[Id] = @__member_Id_0
+2025-03-27 10:38:30.947 +01:00 [WRN] Member with ID "3fa85f64-5717-4562-b3fc-2c963f66afa6" already exists
+2025-03-27 10:38:31.432 +01:00 [ERR] Error creating member: string string
+System.InvalidOperationException: A member with this ID already exists.
+   at EPSPlus.Infrastructure.Repositories.MemberRepository.AddAsync(Member member) in C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Infrastructure\Repositories\MemberRepository.cs:line 79
+   at EPSPlus.API.Controllers.MemberController.CreateMember(Member member) in C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.API\Controllers\MemberController.cs:line 58
+2025-03-27 10:38:31.458 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-03-27 10:38:31.459 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API) in 3000.0708ms
+2025-03-27 10:38:31.460 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:38:31.464 +01:00 [INF] HTTP POST /api/Member responded 400 in 3010.0592 ms
+2025-03-27 10:38:31.480 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Member - 400 null text/plain; charset=utf-8 3027.8639ms
+2025-03-27 10:38:50.192 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Member - application/json 296
+2025-03-27 10:38:50.193 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:38:50.193 +01:00 [INF] Route matched with {action = "CreateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] CreateMember(EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:38:50.227 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-27 10:38:50.280 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API) in 86.5733ms
+2025-03-27 10:38:50.280 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:38:50.280 +01:00 [INF] HTTP POST /api/Member responded 400 in 87.6129 ms
+2025-03-27 10:38:50.281 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Member - 400 null application/problem+json; charset=utf-8 88.5384ms
+2025-03-27 10:39:21.312 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Member - application/json 313
+2025-03-27 10:39:21.314 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:39:21.314 +01:00 [INF] Route matched with {action = "CreateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] CreateMember(EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:39:21.319 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-27 10:39:21.320 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API) in 5.662ms
+2025-03-27 10:39:21.320 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:39:21.320 +01:00 [INF] HTTP POST /api/Member responded 400 in 7.0298 ms
+2025-03-27 10:39:21.321 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Member - 400 null application/problem+json; charset=utf-8 8.7501ms
+2025-03-27 10:39:34.219 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Member - application/json 313
+2025-03-27 10:39:34.220 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:39:34.220 +01:00 [INF] Route matched with {action = "CreateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] CreateMember(EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:39:34.223 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-27 10:39:34.224 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API) in 3.8704ms
+2025-03-27 10:39:34.225 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:39:34.225 +01:00 [INF] HTTP POST /api/Member responded 400 in 5.1286 ms
+2025-03-27 10:39:34.226 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Member - 400 null application/problem+json; charset=utf-8 7.2321ms
+2025-03-27 10:39:54.557 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Member - application/json 314
+2025-03-27 10:39:54.557 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:39:54.558 +01:00 [INF] Route matched with {action = "CreateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] CreateMember(EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:39:54.561 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-27 10:39:54.561 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API) in 3.5812ms
+2025-03-27 10:39:54.562 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:39:54.562 +01:00 [INF] HTTP POST /api/Member responded 400 in 4.5102 ms
+2025-03-27 10:39:54.562 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Member - 400 null application/problem+json; charset=utf-8 5.938ms
+2025-03-27 10:40:22.204 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Member - application/json 314
+2025-03-27 10:40:22.205 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:40:22.205 +01:00 [INF] Route matched with {action = "CreateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] CreateMember(EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:40:22.209 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-27 10:40:22.210 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API) in 3.4776ms
+2025-03-27 10:40:22.210 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:40:22.210 +01:00 [INF] HTTP POST /api/Member responded 400 in 5.1790 ms
+2025-03-27 10:40:22.210 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Member - 400 null application/problem+json; charset=utf-8 6.3181ms
+2025-03-27 10:40:24.411 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Member - application/json 314
+2025-03-27 10:40:24.412 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:40:24.412 +01:00 [INF] Route matched with {action = "CreateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] CreateMember(EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:40:24.414 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-27 10:40:24.415 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API) in 3.1074ms
+2025-03-27 10:40:24.415 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:40:24.416 +01:00 [INF] HTTP POST /api/Member responded 400 in 3.9104 ms
+2025-03-27 10:40:24.416 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Member - 400 null application/problem+json; charset=utf-8 4.8371ms
+2025-03-27 10:40:33.174 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Member - application/json 298
+2025-03-27 10:40:33.175 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:40:33.175 +01:00 [INF] Route matched with {action = "CreateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] CreateMember(EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:40:35.633 +01:00 [INF] Creating new member: string string
+2025-03-27 10:40:35.634 +01:00 [WRN] Invalid age for member: string string
+2025-03-27 10:40:35.634 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-03-27 10:40:35.675 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API) in 2500.052ms
+2025-03-27 10:40:35.675 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:40:35.676 +01:00 [INF] HTTP POST /api/Member responded 400 in 2500.8030 ms
+2025-03-27 10:40:35.676 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Member - 400 null text/plain; charset=utf-8 2501.6107ms
+2025-03-27 10:40:43.681 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Member - application/json 298
+2025-03-27 10:40:43.681 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:40:43.682 +01:00 [INF] Route matched with {action = "CreateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] CreateMember(EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:40:45.722 +01:00 [INF] Creating new member: string string
+2025-03-27 10:40:45.723 +01:00 [INF] Adding new member: string string
+2025-03-27 10:40:45.749 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[@__member_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[CreatedAt], [m].[DateOfBirth], [m].[Email], [m].[FirstName], [m].[IsActive], [m].[LastName], [m].[PhoneNumber], [m].[UpdatedAt]
+FROM [Members] AS [m]
+WHERE [m].[Id] = @__member_Id_0
+2025-03-27 10:40:45.751 +01:00 [WRN] Member with ID "3fa85f64-5717-4562-b3fc-2c963f66afa6" already exists
+2025-03-27 10:40:45.853 +01:00 [ERR] Error creating member: string string
+System.InvalidOperationException: A member with this ID already exists.
+   at EPSPlus.Infrastructure.Repositories.MemberRepository.AddAsync(Member member) in C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Infrastructure\Repositories\MemberRepository.cs:line 79
+   at EPSPlus.API.Controllers.MemberController.CreateMember(Member member) in C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.API\Controllers\MemberController.cs:line 58
+2025-03-27 10:40:45.854 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-03-27 10:40:45.855 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API) in 2172.909ms
+2025-03-27 10:40:45.855 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:40:45.855 +01:00 [INF] HTTP POST /api/Member responded 400 in 2173.7099 ms
+2025-03-27 10:40:45.855 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Member - 400 null text/plain; charset=utf-8 2174.9133ms
+2025-03-27 10:40:54.622 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Member - application/json 298
+2025-03-27 10:40:54.623 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:40:54.623 +01:00 [INF] Route matched with {action = "CreateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] CreateMember(EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 10:40:56.971 +01:00 [INF] Creating new member: string string
+2025-03-27 10:40:56.971 +01:00 [INF] Adding new member: string string
+2025-03-27 10:40:57.046 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__member_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[CreatedAt], [m].[DateOfBirth], [m].[Email], [m].[FirstName], [m].[IsActive], [m].[LastName], [m].[PhoneNumber], [m].[UpdatedAt]
+FROM [Members] AS [m]
+WHERE [m].[Id] = @__member_Id_0
+2025-03-27 10:40:57.176 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 50), @p5='?' (DbType = Boolean), @p6='?' (Size = 50), @p7='?' (Size = 4000), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Members] ([Id], [CreatedAt], [DateOfBirth], [Email], [FirstName], [IsActive], [LastName], [PhoneNumber], [UpdatedAt])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-03-27 10:40:57.188 +01:00 [INF] Successfully added member: string string
+2025-03-27 10:40:57.188 +01:00 [INF] Member string string created successfully
+2025-03-27 10:40:57.190 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'EPSPlus.Domain.Entities.Member'.
+2025-03-27 10:40:57.219 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API) in 2595.4975ms
+2025-03-27 10:40:57.219 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 10:40:57.219 +01:00 [INF] HTTP POST /api/Member responded 201 in 2596.8293 ms
+2025-03-27 10:40:57.220 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Member - 201 null application/json; charset=utf-8 2597.8418ms
+2025-03-27 11:35:09.882 +01:00 [INF] Start installing Hangfire SQL objects...
+2025-03-27 11:35:12.665 +01:00 [INF] Hangfire SQL objects installed.
+2025-03-27 11:35:14.229 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/index.html - null null
+2025-03-27 11:35:14.493 +01:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: (local)@EPSPlusDB'
+2025-03-27 11:35:14.493 +01:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-03-27 11:35:14.494 +01:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-27 11:35:14.573 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-27 11:35:14.574 +01:00 [INF] Hosting environment: Development
+2025-03-27 11:35:14.574 +01:00 [INF] Content root path: C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.API
+2025-03-27 11:35:14.620 +01:00 [INF] Server desktop-p6lqc67:20588:232fe1b6 successfully announced in 48.451 ms
+2025-03-27 11:35:14.636 +01:00 [INF] Server desktop-p6lqc67:20588:232fe1b6 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-27 11:35:14.766 +01:00 [INF] 1 servers were removed due to timeout
+2025-03-27 11:35:15.032 +01:00 [INF] Server desktop-p6lqc67:20588:232fe1b6 all the dispatchers started
+2025-03-27 11:35:15.452 +01:00 [INF] HTTP GET /index.html responded 200 in 278.1893 ms
+2025-03-27 11:35:15.485 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/index.html - 200 null text/html;charset=utf-8 1270.2833ms
+2025-03-27 11:35:15.752 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/index.js - null null
+2025-03-27 11:35:15.752 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-27 11:35:15.752 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_vs/browserLink - null null
+2025-03-27 11:35:15.799 +01:00 [INF] HTTP GET /index.js responded 200 in 45.9109 ms
+2025-03-27 11:35:15.843 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/index.js - 200 null application/javascript;charset=utf-8 92.419ms
+2025-03-27 11:35:15.898 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 96.7073ms
+2025-03-27 11:35:16.179 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_vs/browserLink - 200 null text/javascript; charset=UTF-8 428.6328ms
+2025-03-27 11:35:16.337 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger/v1/swagger.json - null null
+2025-03-27 11:35:16.788 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 449.0667 ms
+2025-03-27 11:35:16.789 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 451.668ms
+2025-03-27 11:35:16.847 +01:00 [INF] Retrying failed contributions...
+2025-03-27 11:35:16.924 +01:00 [INF] Fetching all failed contributions
+2025-03-27 11:35:19.305 +01:00 [INF] Executed DbCommand (63ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Amount], [c].[ContributionDate], [c].[MemberId], [c].[Status], [c].[Type]
+FROM [Contributions] AS [c]
+WHERE [c].[Status] = 3
+2025-03-27 11:35:19.347 +01:00 [INF] Fetched 0 failed contributions
+2025-03-27 11:35:19.348 +01:00 [INF] Retry job for failed contributions completed.
+2025-03-27 11:37:08.068 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Member - application/json 296
+2025-03-27 11:37:08.136 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 11:37:08.183 +01:00 [INF] Route matched with {action = "CreateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] CreateMember(EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 11:37:08.249 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-27 11:37:08.280 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API) in 90.2355ms
+2025-03-27 11:37:08.281 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 11:37:08.281 +01:00 [INF] HTTP POST /api/Member responded 400 in 212.1939 ms
+2025-03-27 11:37:08.282 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Member - 400 null application/problem+json; charset=utf-8 213.9339ms
+2025-03-27 11:37:17.512 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Member - application/json 298
+2025-03-27 11:37:17.515 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 11:37:17.515 +01:00 [INF] Route matched with {action = "CreateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] CreateMember(EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 11:37:17.532 +01:00 [INF] Creating new member: string string
+2025-03-27 11:37:17.745 +01:00 [ERR] Error creating member.
+System.InvalidOperationException: Member must be between 18 and 70 years old.
+   at EPSPlus.Application.Services.MemberService.CreateMemberAsync(Member member) in C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Application\Services\MemberService.cs:line 57
+2025-03-27 11:37:17.932 +01:00 [ERR] Error creating member: string string
+System.InvalidOperationException: Member must be between 18 and 70 years old.
+   at EPSPlus.Application.Services.MemberService.CreateMemberAsync(Member member) in C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Application\Services\MemberService.cs:line 57
+   at EPSPlus.API.Controllers.MemberController.CreateMember(Member member) in C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.API\Controllers\MemberController.cs:line 52
+2025-03-27 11:37:17.939 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-03-27 11:37:17.941 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API) in 424.9798ms
+2025-03-27 11:37:17.941 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 11:37:17.941 +01:00 [INF] HTTP POST /api/Member responded 400 in 428.8166 ms
+2025-03-27 11:37:17.942 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Member - 400 null text/plain; charset=utf-8 429.9155ms
+2025-03-27 11:37:26.992 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Member - application/json 298
+2025-03-27 11:37:26.993 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 11:37:26.993 +01:00 [INF] Route matched with {action = "CreateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] CreateMember(EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 11:37:26.999 +01:00 [INF] Creating new member: string string
+2025-03-27 11:37:27.001 +01:00 [INF] Adding new member: string string
+2025-03-27 11:37:27.079 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@__member_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[CreatedAt], [m].[DateOfBirth], [m].[Email], [m].[FirstName], [m].[IsActive], [m].[LastName], [m].[PhoneNumber], [m].[UpdatedAt]
+FROM [Members] AS [m]
+WHERE [m].[Id] = @__member_Id_0
+2025-03-27 11:37:27.216 +01:00 [WRN] Member with ID "3fa85f64-5717-4562-b3fc-2c963f66afa6" already exists
+2025-03-27 11:37:27.621 +01:00 [ERR] Error creating member.
+System.InvalidOperationException: A member with this ID already exists.
+   at EPSPlus.Infrastructure.Repositories.MemberRepository.AddAsync(Member member) in C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Infrastructure\Repositories\MemberRepository.cs:line 79
+   at EPSPlus.Application.Services.MemberService.CreateMemberAsync(Member member) in C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Application\Services\MemberService.cs:line 60
+2025-03-27 11:37:27.765 +01:00 [ERR] Error creating member: string string
+System.InvalidOperationException: A member with this ID already exists.
+   at EPSPlus.Infrastructure.Repositories.MemberRepository.AddAsync(Member member) in C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Infrastructure\Repositories\MemberRepository.cs:line 79
+   at EPSPlus.Application.Services.MemberService.CreateMemberAsync(Member member) in C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.Application\Services\MemberService.cs:line 60
+   at EPSPlus.API.Controllers.MemberController.CreateMember(Member member) in C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.API\Controllers\MemberController.cs:line 52
+2025-03-27 11:37:27.769 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-03-27 11:37:27.770 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API) in 776.1351ms
+2025-03-27 11:37:27.770 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 11:37:27.771 +01:00 [INF] HTTP POST /api/Member responded 400 in 778.4388 ms
+2025-03-27 11:37:27.772 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Member - 400 null text/plain; charset=utf-8 780.5297ms
+2025-03-27 11:37:35.043 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Member - application/json 298
+2025-03-27 11:37:35.043 +01:00 [INF] Executing endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 11:37:35.043 +01:00 [INF] Route matched with {action = "CreateMember", controller = "Member"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EPSPlus.Domain.Entities.Member]] CreateMember(EPSPlus.Domain.Entities.Member) on controller EPSPlus.API.Controllers.MemberController (EPSPlus.API).
+2025-03-27 11:37:35.044 +01:00 [INF] Creating new member: string string
+2025-03-27 11:37:35.045 +01:00 [INF] Adding new member: string string
+2025-03-27 11:37:35.163 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__member_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[CreatedAt], [m].[DateOfBirth], [m].[Email], [m].[FirstName], [m].[IsActive], [m].[LastName], [m].[PhoneNumber], [m].[UpdatedAt]
+FROM [Members] AS [m]
+WHERE [m].[Id] = @__member_Id_0
+2025-03-27 11:37:35.421 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 50), @p5='?' (DbType = Boolean), @p6='?' (Size = 50), @p7='?' (Size = 4000), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Members] ([Id], [CreatedAt], [DateOfBirth], [Email], [FirstName], [IsActive], [LastName], [PhoneNumber], [UpdatedAt])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-03-27 11:37:35.447 +01:00 [INF] Successfully added member: string string
+2025-03-27 11:37:35.447 +01:00 [INF] Member string string created successfully
+2025-03-27 11:37:35.450 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'EPSPlus.Domain.Entities.Member'.
+2025-03-27 11:37:35.506 +01:00 [INF] Executed action EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API) in 462.192ms
+2025-03-27 11:37:35.506 +01:00 [INF] Executed endpoint 'EPSPlus.API.Controllers.MemberController.CreateMember (EPSPlus.API)'
+2025-03-27 11:37:35.506 +01:00 [INF] HTTP POST /api/Member responded 201 in 463.1462 ms
+2025-03-27 11:37:35.507 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Member - 201 null application/json; charset=utf-8 464.5707ms
+2025-03-27 15:24:25.417 +01:00 [INF] Start installing Hangfire SQL objects...
+2025-03-27 15:24:28.185 +01:00 [INF] Hangfire SQL objects installed.
+2025-03-27 15:24:29.103 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/index.html - null null
+2025-03-27 15:24:29.221 +01:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: (local)@EPSPlusDB'
+2025-03-27 15:24:29.221 +01:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-03-27 15:24:29.221 +01:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-27 15:24:29.283 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-27 15:24:29.284 +01:00 [INF] Hosting environment: Development
+2025-03-27 15:24:29.284 +01:00 [INF] Content root path: C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.API
+2025-03-27 15:24:29.318 +01:00 [INF] Server desktop-p6lqc67:33412:e6f9cff0 successfully announced in 36.0584 ms
+2025-03-27 15:24:29.327 +01:00 [INF] Server desktop-p6lqc67:33412:e6f9cff0 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-27 15:24:29.397 +01:00 [INF] 1 servers were removed due to timeout
+2025-03-27 15:24:29.621 +01:00 [INF] Server desktop-p6lqc67:33412:e6f9cff0 all the dispatchers started
+2025-03-27 15:24:29.763 +01:00 [INF] HTTP GET /index.html responded 200 in 465.7967 ms
+2025-03-27 15:24:29.865 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger-ui-bundle.js - null null
+2025-03-27 15:24:29.865 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger-ui.css - null null
+2025-03-27 15:24:29.865 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-27 15:24:29.865 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/index.css - null null
+2025-03-27 15:24:29.867 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger-ui-standalone-preset.js - null null
+2025-03-27 15:24:29.906 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/index.js - null null
+2025-03-27 15:24:29.917 +01:00 [INF] HTTP GET /index.js responded 200 in 9.0254 ms
+2025-03-27 15:24:29.927 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/index.html - 200 null text/html;charset=utf-8 817.5605ms
+2025-03-27 15:24:29.928 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/index.js - 200 null application/javascript;charset=utf-8 21.5775ms
+2025-03-27 15:24:29.945 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 119.4878ms
+2025-03-27 15:24:29.950 +01:00 [INF] The file /swagger-ui-bundle.js was not modified
+2025-03-27 15:24:29.950 +01:00 [INF] The file /swagger-ui.css was not modified
+2025-03-27 15:24:29.950 +01:00 [INF] The file /index.css was not modified
+2025-03-27 15:24:29.950 +01:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2025-03-27 15:24:29.951 +01:00 [INF] HTTP GET /swagger-ui.css responded 304 in 85.5632 ms
+2025-03-27 15:24:29.951 +01:00 [INF] HTTP GET /swagger-ui-bundle.js responded 304 in 85.5629 ms
+2025-03-27 15:24:29.951 +01:00 [INF] HTTP GET /index.css responded 304 in 85.5631 ms
+2025-03-27 15:24:29.951 +01:00 [INF] HTTP GET /swagger-ui-standalone-preset.js responded 304 in 45.7672 ms
+2025-03-27 15:24:29.952 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/index.css - 304 null text/css 131.0284ms
+2025-03-27 15:24:29.952 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/swagger-ui-bundle.js - 304 null text/javascript 131.0286ms
+2025-03-27 15:24:29.952 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/swagger-ui-standalone-preset.js - 304 null text/javascript 86.5221ms
+2025-03-27 15:24:29.952 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/swagger-ui.css - 304 null text/css 92.9327ms
+2025-03-27 15:24:29.996 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_vs/browserLink - null null
+2025-03-27 15:24:30.075 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_vs/browserLink - 200 null text/javascript; charset=UTF-8 79.3753ms
+2025-03-27 15:24:30.166 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger/v1/swagger.json - null null
+2025-03-27 15:24:30.334 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 166.4523 ms
+2025-03-27 15:24:30.335 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 168.6263ms
+2025-03-27 15:24:31.082 +01:00 [INF] Retrying failed contributions...
+2025-03-27 15:24:31.133 +01:00 [INF] Fetching all failed contributions
+2025-03-27 15:24:48.831 +01:00 [INF] Start installing Hangfire SQL objects...
+2025-03-27 15:24:49.775 +01:00 [INF] Hangfire SQL objects installed.
+2025-03-27 15:24:50.521 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/index.html - null null
+2025-03-27 15:24:50.674 +01:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: (local)@EPSPlusDB'
+2025-03-27 15:24:50.674 +01:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-03-27 15:24:50.674 +01:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-27 15:24:50.728 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-27 15:24:50.728 +01:00 [INF] Hosting environment: Development
+2025-03-27 15:24:50.728 +01:00 [INF] Content root path: C:\Users\onyedika.ezeamama\Desktop\project\EPSPlus\EPSPlus.API
+2025-03-27 15:24:50.756 +01:00 [INF] Server desktop-p6lqc67:43256:14890a2f successfully announced in 21.2354 ms
+2025-03-27 15:24:50.769 +01:00 [INF] Server desktop-p6lqc67:43256:14890a2f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-27 15:24:51.038 +01:00 [INF] Server desktop-p6lqc67:43256:14890a2f all the dispatchers started
+2025-03-27 15:24:51.229 +01:00 [INF] HTTP GET /index.html responded 200 in 474.7321 ms
+2025-03-27 15:24:51.244 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/index.html - 200 null text/html;charset=utf-8 740.5258ms
+2025-03-27 15:24:51.246 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/index.js - null null
+2025-03-27 15:24:51.246 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-27 15:24:51.251 +01:00 [INF] HTTP GET /index.js responded 200 in 4.1721 ms
+2025-03-27 15:24:51.252 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/index.js - 200 null application/javascript;charset=utf-8 7.1699ms
+2025-03-27 15:24:51.306 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 51.7424ms
+2025-03-27 15:24:51.342 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_vs/browserLink - null null
+2025-03-27 15:24:51.383 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.3892ms
+2025-03-27 15:24:51.496 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger/v1/swagger.json - null null
+2025-03-27 15:24:51.671 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 170.5301 ms
+2025-03-27 15:24:51.671 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44335/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 175.1794ms

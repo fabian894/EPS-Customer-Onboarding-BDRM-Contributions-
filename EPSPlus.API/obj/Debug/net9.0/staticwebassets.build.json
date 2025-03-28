@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "tClR9XJudB59kiKS6Wazz3YTittgrFc46/KYrZOCvZM=",
+  "Source": "EPSPlus.API",
+  "BasePath": "_content/EPSPlus.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

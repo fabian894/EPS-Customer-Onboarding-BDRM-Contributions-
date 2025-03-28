@@ -1,0 +1,6 @@
+@EPSPlus_HostAddress = http://localhost:5188
+
+GET {{EPSPlus_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
