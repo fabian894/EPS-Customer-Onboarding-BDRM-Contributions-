@@ -1,9 +1,22 @@
 # EPS-Customer-Onboarding-BDRM-Contributions-
 Evaluate candidates' skills in .NET Core, Entity Framework, SQL Server, and  software architecture principles.
 
-Design and implement a backend RESTful API to   Onboard Customers and make contributions (e.g., create, retrieve, update, 
-delete) using the specified technologies, with comprehensive API documentation provided via Swagger 
-or Postman.
+Develop a Pension Contribution Management System with the following features:
+A. Member Management
+• Register, update, retrieve, and soft-delete members.
+B. Contribution Processing
+• Handle Monthly Contributions (one per month) and Voluntary Contributions
+(multiple per month).
+• Calculate total contributions and generate statements.
+• Enforce business rules (minimum contribution period before benefit eligibility).
+C. Background Jobs (Hangfire)
+• Validate contributions.
+• Generate benefit eligibility updates and interest calculations.
+• Handle failed transactions and notifications.
+D. Data Validation
+• Member details (Name, Date of Birth, Email, Phone, Age restrictions: 18-70).
+• Contribution validation (amount > 0, valid contribution date checks).
+• Employer registration (Company name, valid registration, active status).
 
 **Setup instructions (including database schema, dependencies, and how to run locally)**
 Open project on VIsual Studio or Visual Studio Code
